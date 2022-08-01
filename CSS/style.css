@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a  {
+    text-decoration: none;
+}
+
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+.align-center {
+    align-items: center;
+}
+
+.btn {
+    padding: 14px 40px;
+    color: white;
+    background-color: #F8991C;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.heading1 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #F8991C;
+}
+.heading2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+/* Basic css ends */
+
+/* Nav starts */
+nav .img {
+    width: 40%;
+}
+
+nav .menu {
+    width: 60%;
+}
+nav .menu ul {
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+}
+nav .menu ul li a {
+    padding: 50px 30px;
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+/* Nav ends */
+
+/*Banner starts*/
+#banner {
+    background-color: #F8F8F8;
+    height: 680px;
+}
+
+#banner .banner-cnt {
+    width: 60%;
+
+}
+
+#banner .banner-img {
+    width: 40%;
+}
+
+#banner .banner-cnt h4 {
+    font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+color: #000000;
+}
+
+#banner .banner-cnt h1 {
+    font-weight: 700;
+font-size: 45px;
+line-height: 61px;
+
+color: #000000;
+
+
+}
+#banner .banner-cnt p {
+    font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+color: #000000;
+}
+
+#banner .banner-cnt a {
+    margin-top: 30px;
+}
+
+#banner .banner-cnt .social-sites {
+    margin-top: 170px;
+    font-weight: 400;
+font-size: 16px;
+color: #000000;
+position: relative;
+width: 250px;
+
+
+}
+
+#banner .banner-cnt .social-sites p {
+    font-size: 16px;
+}
+#banner .banner-cnt .social-sites .iconLinks {
+    position: absolute;
+    top: -16px;
+    right: 33px;
+}
+
+/* Banner ends*/
+
+/*About starts*/
+#about {
+    padding: 102px 0;
+}
+#about .about-img {
+width: 40%;
+}
+
+#about .about-cnt {
+    width: 60%;
+}
+#about .about-cnt img {
+    margin: 40px 0;
+}
+
+#about .about-cnt a:last-child {
+    margin-top: 40px;
+}
+/*About ends*/
